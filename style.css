@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+img {
+    height: 100vh;
+    width: 45vw;
+
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 100vh;
+    width: 55vw;
+}
+
+.first-div {
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
+    height:35vh;
+    background-color: rgb(241, 240, 240);
+    font-weight: bold;
+    padding: 15px;
+}
+
+.second-div {
+    height: 30vh;
+    padding: 15px;
+}
+
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.third-div {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    background-color: rgb(245, 243, 243);
+    padding: 15px;
+}
+
+button {
+    background-color: rgb(12, 34, 129);
+    border-width: 0;
+    border-radius: 6px;
+    width: 9rem;
+    height: 8vh;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 12px 10px 12px 10px ;
+    color: white;
+}
