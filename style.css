@@ -6,12 +6,40 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-img {
-    height: 100vh;
-    width: 40vw;
-    background-position: center;
-    background-size: auto;
+@font-face {
+    font-family: "Norse Bold";
+    src: url("Norse-Bold.otf");
+}
 
+.image-section {
+    background-position: center center;
+    background-image: url("tezos.jpg");
+    background-size: cover;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+img {
+    height: 125px;
+    width: auto;
+    background-position: center;
+    background-size: 200px;
+
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: "Norse Bold";
+    margin-top: 20vh;
+    padding: 16px 16px 16px 16px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .myform {
@@ -34,10 +62,11 @@ img {
 }
 
 .second-div {
-    height: 30vh;
+    margin-top: 32px;
+    padding-top: 16px;
     padding-bottom: 50px;
     padding-left: 20px;
-    box-shadow: 10px 10px 20px 2px rgb(22, 22, 22);
+    box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -70,6 +99,9 @@ input {
     border: 1px solid #e5e7eb;
     border-radius: 5px;
     padding: 4px 8px;
+    width: 100%;
+    font-size: 1rem;
+    margin-right: 32px;
 }
   
 input:focus {
